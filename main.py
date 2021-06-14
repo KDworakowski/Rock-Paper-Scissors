@@ -7,7 +7,7 @@ while True:
     try:
         user_action = logic.get_user_selection()
     except ValueError as e:
-        range_str = f"[0, {len(Action) - 1}]"
+        range_str = f"[0, {len(logic.Action) - 1}]"
         print(f"Invalid selection. Enter a value in range {range_str}")
         continue
 

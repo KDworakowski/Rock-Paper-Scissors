@@ -1,6 +1,6 @@
 #!/usr/bin/env Python
 
-import logic
+from logic import logic
 
 
 while True:
